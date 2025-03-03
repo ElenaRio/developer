@@ -1,184 +1,278 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./reset.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
-    <header class="header ">
-        <div class="container">
-            <div class="header__inner">
-                <a class="logo" href="#">
-                    <img class="logo-img" src="./icons/logo.svg" alt="logo">
-                    <p class="logo-text">Portfolio</p>
-                </a>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#">
+            <img class="logo-img" src="./icons/logo.svg" alt="logo" />
+            <p class="logo-text">Portfolio</p>
+          </a>
 
-                <nav class="menu">
-                    <div class="menu__btn"><a href="#">
-                            <img src="./icons/menu30w.svg" alt="">
-                        </a></div>
-                    <ul class="menu__list">
-                        <li class="menu__close"><button class="menu__close-btn">
-                                <img src="./icons/close30w.svg" alt="close"></button>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#about">About</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+          <nav class="menu">
+            <div class="menu__btn">
+              <a href="#">
+                <img src="./icons/menu30w.svg" alt="" />
+              </a>
             </div>
-            <div class="greetings">
-                <h3 class="greetings__title">Hello, my name is <span class="greetings__title-color">Elena</span></h3>
-                <p class="greetings__text">I'm a front-end developer</p>
-
-            </div>
-            <div class="details">
-                <p class="details__text">Find out more about me</p>
-                <i class="details__icon"></i>
-            </div>
+            <ul class="menu__list">
+              <li class="menu__close">
+                <button class="menu__close-btn">
+                  <img src="./icons/close30w.svg" alt="close" />
+                </button>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#about">About</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
+        <div class="greetings">
+          <h3 class="greetings__title">
+            Hello, my name is <span class="greetings__title-color">Elena</span>
+          </h3>
+          <p class="greetings__text">I'm a front-end developer</p>
+        </div>
+        <div class="details">
+          <p class="details__text">Find out more about me</p>
+          <i class="details__icon"></i>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="about" id="about">
-            <div class="container">
-                <div class="about-wrapper">
-                    <div class="foto">
-                        <img src="./images/02.svg" alt="foto">
-                    </div>
-                    <div class="info">
-                        <h3 class="info__title">About Me</h3>
-                        <p class="info__text">I am a goal-oriented and creative frontend developer specializing in
-                            building interactive and responsive web applications. <br>
-                            I have a strong knowledge of HTML, CSS, and JavaScript, along with experience working with
-                            modern frameworks like React. <br> I
-                            strive to create high-quality user interfaces that focus on both usability and performance.
-                        </p>
-                        <ul class="skils__list">
-                            <li class="skils__item_title">Skills</li>
-                            <li class="skils__item"><span class="skils__item-weight">Frontend:</span> HTML, CSS,
-                                JavaScript</li>
-                            <li class="skils__item"><span class="skils__item-weight">Frameworks:</span> React
-                            </li>
-                            <li class="skils__item"><span class="skils__item-weight">Backend (basics):</span> Node.js
-                            </li>
-                            <li class="skils__item"><span class="skils__item-weight">Tools:</span> Git, GitHub, VS Code
-                            </li>
-                            <li class="skils__item"><span class="skils__item-weight">UI/UX:</span> Responsive Design,
-                                Material UI, Figma</li>
-
-                        </ul>
-                    </div>
-                </div>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-wrapper">
+            <div class="foto">
+              <img src="./images/02.svg" alt="foto" />
             </div>
-
-        </section>
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <h3 class="portfolio__title">My works</h3>
-                <div class="works">
-                    <div class="works__box">
-                        <img class="works__box-img" src="./images/work6.png" alt="works">
-                        <div class="works__box-wrapper">
-                            <p class="works__box_title">React-Redux_Toolkit-TS</p>
-                            <p class="works__box_text">Pie Shop</p>
-                            <a class="works__box_link" href=" https://elenario.github.io/my-pies-react-redux/">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="works__box">
-                        <img class="works__box-img" src="./images/works5.png" alt="works">
-                        <div class="works__box-wrapper">
-                            <p class="works__box_title">Website</p>
-                            <p class="works__box_text">FASHION</p>
-                            <a class="works__box_link" href="https://elenario.github.io/fachion_react/#/">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="works__box">
-                        <img class="works__box-img" src="./images/works4.png" alt="works">
-                        <div class="works__box-wrapper">
-                            <p class="works__box_title">Web application</p>
-                            <p class="works__box_text">Todo App</p>
-                            <a class="works__box_link" href="https://elenario.github.io/Todo/">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="works__box">
-                        <img class="works__box-img" src="./images/works1.jpg" alt="works">
-                        <div class="works__box-wrapper">
-                            <p class="works__box_title">Website</p>
-                            <p class="works__box_text">Barbershop "Forest"</p>
-                            <a class="works__box_link" href="https://elenario.github.io/barber/">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="works__box">
-                        <img class="works__box-img" src="./images/works2.jpg" alt="works">
-                        <div class="works__box-wrapper">
-                            <p class="works__box_title">Website food delivery</p>
-                            <p class="works__box_text">Сafe "YourMeal"</p>
-                            <a class="works__box_link" href="https://elenario.github.io/burger/">Learn more</a>
-                        </div>
-                    </div>
-                    <div class="works__box">
-                        <img class="works__box-img" src="./images/work3.png" alt="works">
-                        <div class="works__box-wrapper">
-                            <p class="works__box_title">Web application</p>
-                            <p class="works__box_text">Random Quotes</p>
-                            <a class="works__box_link" href="https://elenario.github.io/Quote-random-my/">Learn more</a>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="info">
+              <h3 class="info__title">About Me</h3>
+              <p class="info__text">
+                I am a goal-oriented and creative frontend developer
+                specializing in building interactive and responsive web
+                applications. <br />
+                I have a strong knowledge of HTML, CSS, and JavaScript, along
+                with experience working with modern frameworks like React.
+                <br />
+                I strive to create high-quality user interfaces that focus on
+                both usability and performance.
+              </p>
+              <ul class="skils__list">
+                <li class="skils__item_title">Skills</li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">Frontend:</span> HTML, CSS,
+                  JavaScript
+                </li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">Frameworks:</span> React
+                </li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">Backend (basics):</span>
+                  Node.js
+                </li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">Tools:</span> Git, GitHub, VS
+                  Code
+                </li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">UI/UX:</span> Responsive
+                  Design, Material UI, Figma
+                </li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">State Management:</span>
+                  Redux Toolkit
+                </li>
+                <li class="skils__item">
+                  <span class="skils__item-weight">Languages:</span> TypeScript
+                </li>
+              </ul>
             </div>
-
-        </section>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <h3 class="portfolio__title">My works</h3>
+          <div class="works">
+            <div class="works__box">
+              <img
+                class="works__box-img"
+                src="./images/work6.png"
+                alt="works"
+              />
+              <div class="works__box-wrapper">
+                <p class="works__box_title">React-Redux_Toolkit-TS</p>
+                <p class="works__box_text">Pie Shop</p>
+                <a
+                  class="works__box_link"
+                  href=" https://elenario.github.io/my-pies-react-redux/"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="works__box">
+              <img
+                class="works__box-img"
+                src="./images/works5.png"
+                alt="works"
+              />
+              <div class="works__box-wrapper">
+                <p class="works__box_title">Website</p>
+                <p class="works__box_text">FASHION</p>
+                <a
+                  class="works__box_link"
+                  href="https://elenario.github.io/fachion_react/#/"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="works__box">
+              <img
+                class="works__box-img"
+                src="./images/works4.png"
+                alt="works"
+              />
+              <div class="works__box-wrapper">
+                <p class="works__box_title">Web application</p>
+                <p class="works__box_text">Todo App</p>
+                <a
+                  class="works__box_link"
+                  href="https://elenario.github.io/Todo/"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="works__box">
+              <img
+                class="works__box-img"
+                src="./images/works1.jpg"
+                alt="works"
+              />
+              <div class="works__box-wrapper">
+                <p class="works__box_title">Website</p>
+                <p class="works__box_text">Barbershop "Forest"</p>
+                <a
+                  class="works__box_link"
+                  href="https://elenario.github.io/barber/"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="works__box">
+              <img
+                class="works__box-img"
+                src="./images/works2.jpg"
+                alt="works"
+              />
+              <div class="works__box-wrapper">
+                <p class="works__box_title">Website food delivery</p>
+                <p class="works__box_text">Сafe "YourMeal"</p>
+                <a
+                  class="works__box_link"
+                  href="https://elenario.github.io/burger/"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="works__box">
+              <img
+                class="works__box-img"
+                src="./images/work3.png"
+                alt="works"
+              />
+              <div class="works__box-wrapper">
+                <p class="works__box_title">Web application</p>
+                <p class="works__box_text">Random Quotes</p>
+                <a
+                  class="works__box_link"
+                  href="https://elenario.github.io/Quote-random-my/"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-contact">
-                <div class="contact-info">
-                    <h3 class="contact-info__title">Jivilo Olena</h3>
-                    <p class="contact-info__text"> <span> </span></p>
-                </div>
+      <div class="container">
+        <div class="footer-contact">
+          <div class="contact-info">
+            <h3 class="contact-info__title">Jivilo Olena</h3>
+            <p class="contact-info__text"><span> </span></p>
+          </div>
 
-                <div class="contact-icon">
-                    <ul class="contact-icon__wrapper">
-                        <li class="contact-icon__item"><a class="contact-icon__link" href="https://www.linkedin.com/in/olena-j-45301731a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><ion-icon
-                                    name="logo-linkedin"></ion-icon></a></li>
-                        <li class="contact-icon__item"><a class="contact-icon__link" href="https://t.me/olena_ji" target="_blank"><ion-icon
-                                    name="paper-plane"></ion-icon></a></li>
-                        <li class="contact-icon__item"><a class="contact-icon__link" href="https://github.com/ElenaRio" target="_blank"><ion-icon
-                                    name="logo-github"></ion-icon></a></li>
-                        <li class="contact-icon__item"><a class="contact-icon__link" href="mailto:lenario22@ukr.net" target="_blank"><ion-icon
-                                    name="mail"></ion-icon></a></li>
-                    </ul>
-                </div>
-            </div>
+          <div class="contact-icon">
+            <ul class="contact-icon__wrapper">
+              <li class="contact-icon__item">
+                <a
+                  class="contact-icon__link"
+                  href="https://www.linkedin.com/in/olena-j-45301731a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li class="contact-icon__item">
+                <a
+                  class="contact-icon__link"
+                  href="https://t.me/olena_ji"
+                  target="_blank"
+                  ><ion-icon name="paper-plane"></ion-icon
+                ></a>
+              </li>
+              <li class="contact-icon__item">
+                <a
+                  class="contact-icon__link"
+                  href="https://github.com/ElenaRio"
+                  target="_blank"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+              <li class="contact-icon__item">
+                <a
+                  class="contact-icon__link"
+                  href="mailto:lenario22@ukr.net"
+                  target="_blank"
+                  ><ion-icon name="mail"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-
+      </div>
     </footer>
 
-
-
-
-
-   
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="./javascript.js"></script>
-</body>
-
+  </body>
 </html>
